@@ -7,7 +7,7 @@ import javax.xml.ws.*;
 public class SquareRootClient {
 
     public static void main(String[] args) throws Exception {
-        URL url = new URL("http://127.0.0.1:5335/service?wsdl");
+        URL url = new URL("http://localhost:8080/WebService/SquareRootServerlmpl?wsdl");
         QName qname = new QName(
                 "http://ws.webservice.com/",
                 "SquareRootServerlmplService"
